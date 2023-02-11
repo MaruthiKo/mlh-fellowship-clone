@@ -1,0 +1,20 @@
+.hero{
+    background-color: var(--blue);
+}
+
+.hero--img{
+    height: 250px;
+    width: 300px;
+}
+
+.flex{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.company{
+    width: 92px;
+    height: 32px;
+}

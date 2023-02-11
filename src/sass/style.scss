@@ -1,6 +1,3 @@
-@use 'globals';
+@use 'base';
 @use 'components';
-
-html{
-    background: darkblue;
-}
+@use 'layout';
