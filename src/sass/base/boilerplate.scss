@@ -14,3 +14,13 @@ body{
     padding: 0;
     // font-family: ;
 }
+
+h1,
+h2,
+h3{
+    font-family: var(--heading);
+}
+
+.span{
+    color: var(--yellow);
+}

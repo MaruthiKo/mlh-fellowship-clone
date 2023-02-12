@@ -1,3 +1,18 @@
-.flex{
+%flex{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.flex{
+    @extend %flex;
+}
+
+
+.flex-reverse{
+    @extend %flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
 }
