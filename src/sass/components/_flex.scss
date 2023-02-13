@@ -8,6 +8,8 @@
 
 .flex{
     @extend %flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 
