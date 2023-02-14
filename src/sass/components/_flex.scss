@@ -18,3 +18,11 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
 }
+
+.flex-col{
+    @extend %flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}

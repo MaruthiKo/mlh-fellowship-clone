@@ -1,0 +1,64 @@
+.reviews{
+    background-color: var(--blue);
+
+    .container{
+        padding: 5rem 2rem;
+    }
+
+    .left{
+        margin: 1rem 0;
+        padding: 3rem;
+        max-width: 50%;
+        h2{
+            font-size: 2.25rem;
+            color: var(--white);
+        }
+        p{
+            padding-right: 2rem;
+            font-size: 1.25rem;
+            color: white;
+        }
+        a{
+            align-self: flex-start;
+        }
+    }
+
+    .right{
+        .review-card{
+            font-family: var(--text);
+            background-color: var(--white);
+            padding: 0.75rem;
+            padding-bottom: 0;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 #0000,0 0 #0000,0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);
+            max-width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            .review-card--top{
+                display: flex;
+                gap:1rem;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+            }
+            .reviewer-details{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .review-card:nth-child(even){
+            translate: 2rem;
+        }
+        .review-card:nth-child(odd){
+            translate: -2rem;
+        }
+
+        .review{
+            font-family: var(--text);
+        }
+    }
+}
