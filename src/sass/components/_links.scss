@@ -1,0 +1,17 @@
+.links{
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.links li{
+    margin-top: 1rem;
+}
+.links li a{
+    color: var(--dark-grey);
+    font-family: var(--text);
+}
+
+.links li a:hover{
+    color: var(--white);
+}

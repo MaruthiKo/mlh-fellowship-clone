@@ -1,0 +1,43 @@
+footer{
+    background-color: var(--medium-black);
+    color: var(--dark-grey);
+    .container{
+        padding: 4rem 1.5rem;
+        .mlh-details{
+            p{
+                font-style: italic;
+                margin-top: 2rem;
+            }
+            .social-icons{
+                display: flex;
+                gap: 1rem;
+            }
+            .icon{
+                font-size: 1.5rem;
+                color: var(--dark-grey);
+                padding: 0 0.25rem;
+            }
+            .icon:hover{
+                color: var(--white);
+            }
+        }
+        .c1,.c2{
+            h3{
+                color: var(--white);
+                font-size: 0.9rem;
+            }
+        }
+        .border-top{
+            padding-top: 2rem;
+            margin-top: 3rem;
+            border: 0 solid var(--dark-grey);
+            border-top-width: 1px;
+            opacity: 0.5;
+        }
+        .license-text{
+            color: var(--very-light-grey);
+            text-align: center;
+            opacity: 1;
+        }
+    }
+}

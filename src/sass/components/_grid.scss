@@ -1,0 +1,17 @@
+@mixin grid($num: 3){
+    display: grid;
+    grid-template-columns: repeat($num,minmax(0,1fr));
+    gap: 2rem;
+}
+
+.grid-col3{
+    @include grid($num: 3);
+}
+
+.grid-col2{
+    @include grid($num: 2);
+    margin-top: 0;
+}
+.span2{
+    grid-column: span 2/ span 2;
+}
