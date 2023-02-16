@@ -7,7 +7,6 @@
         text-align: center;
         margin: 3rem auto;
         max-width: 75ch;
-        
     }
 
     .example{
@@ -32,5 +31,24 @@
             padding-top: 1rem;
             margin-top: 1rem;
         }
+    }
+}
+
+@media (max-width:426px){
+    .examples{
+        .center{
+            margin: 1.5rem auto;
+        }        
+        .flex{
+            padding: 0
+        }
+        .example{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+        .example--desc{
+            padding: 0;
+        }   
     }
 }

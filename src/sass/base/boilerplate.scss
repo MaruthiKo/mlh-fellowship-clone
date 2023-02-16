@@ -24,3 +24,9 @@ h3{
 span{
     color: var(--yellow);
 }
+
+@media (max-width:426px) {
+    .mobile-hidden{
+        display: none;
+    }
+}

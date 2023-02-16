@@ -68,3 +68,14 @@
     }    
 }
 
+
+@media (max-width:426px) {
+    .container{
+        .flex{
+            flex-direction: column;
+        }
+        h2{
+            padding:0.25rem;
+        }
+    }
+}

@@ -38,3 +38,9 @@
 .link:hover::after {
     transform: scaleX(1);
 }
+
+@media (max-width:426px) {
+    .nav--links{
+        display: none;
+    }
+}

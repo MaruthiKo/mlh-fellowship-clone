@@ -52,3 +52,41 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 426px) {
+    .hero{
+        .hero--img{
+            width: 300px;
+            height: 300px;
+        }
+    }
+    .flex-reverse{
+        flex-direction: column-reverse;
+        h1{
+            font-size: 1.75rem;
+            line-height: 1.5;
+        }
+        .hero--content{
+            font-size: 1rem;
+        }
+        .left{
+            a{
+                flex-grow: 1;
+            }
+        }
+    }
+
+    .bottom{
+        padding: 0 0 3rem 0;
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 1rem;
+            gap: 2rem;
+        }
+        .company{
+            width: 65px;
+            height: 25px;
+        }
+    }
+}
