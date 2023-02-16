@@ -4,6 +4,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.25rem 0 1.25rem;
+    .btn{
+        background: none;
+        border: 0;
+        i{
+            height: 1rem;
+            width: 1rem;
+        }
+        
+    }
 }
 
 .nav--logo{
